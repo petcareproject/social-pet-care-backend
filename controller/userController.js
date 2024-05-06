@@ -7,7 +7,6 @@ const { validationResult } = require("express-validator");
 const { checkValidations } = require("../functions/checkValidation");
 const { generatePassword, getImage } = require("../functions/common");
 const { sendMail } = require("../functions/mailer");
-const mongoose = require("mongoose");
 
 //@desc Register a user
 //@route POST /api/users/register
